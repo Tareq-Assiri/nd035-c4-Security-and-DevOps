@@ -253,3 +253,7 @@ insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505
 2023-10-16 08:07:12.161  INFO 18046 --- [http-nio-8082-exec-4] c.e.demo.controllers.OrderController     : order created for user tareq 
 2023-10-16 08:07:13.649  INFO 18046 --- [http-nio-8082-exec-5] c.e.demo.controllers.OrderController     : order created for user tareq 
 2023-10-16 08:41:18.277  WARN 18046 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s846ms), soft-evicting connections from pool.
+2023-10-16 09:12:42.143  INFO 18046 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-16 09:12:42.160  INFO 18046 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16 09:12:42.184  INFO 18046 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-16 09:12:42.189  INFO 18046 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
