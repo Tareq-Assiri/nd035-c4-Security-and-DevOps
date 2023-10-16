@@ -1,0 +1,112 @@
+2023-10-16 07:46:46.961  INFO 17829 --- [main] c.example.demo.SareetaApplicationTests   : Starting SareetaApplicationTests on Tareks-MacBook-Air.local with PID 17829 (started by tarek in /Users/tarek/Downloads/nd035-c4-Security-and-DevOps/starter_code)
+2023-10-16 07:46:46.963  INFO 17829 --- [main] c.example.demo.SareetaApplicationTests   : No active profile set, falling back to default profiles: default
+2023-10-16 07:46:47.256  INFO 17829 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16 07:46:47.299  INFO 17829 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 4 JPA repository interfaces.
+2023-10-16 07:46:47.798  INFO 17829 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16 07:46:47.834  INFO 17829 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-10-16 07:46:47.918  INFO 17829 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-10-16 07:46:47.977  INFO 17829 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-16 07:46:48.108  INFO 17829 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-16 07:46:48.123  INFO 17829 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-16 07:46:48.635  INFO 17829 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16 07:46:48.649  INFO 17829 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16 07:46:48.940  WARN 17829 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-16 07:46:49.259  INFO 17829 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f142e87, org.springframework.security.web.context.SecurityContextPersistenceFilter@423762ae, org.springframework.security.web.header.HeaderWriterFilter@535be281, org.springframework.web.filter.CorsFilter@22dc9d46, org.springframework.security.web.authentication.logout.LogoutFilter@4cb773c5, com.example.demo.security.JWTAuthenticationFilter@63c6c5e5, com.example.demo.security.JWTAuthenticationVerficationFilter@6edb2c7b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@641bc9a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4c579b5b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70a54731, org.springframework.security.web.session.SessionManagementFilter@1405aa6a, org.springframework.security.web.access.ExceptionTranslationFilter@2651e783, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59b3f162]
+2023-10-16 07:46:49.367  INFO 17829 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-16 07:46:49.487  INFO 17829 --- [main] c.example.demo.SareetaApplicationTests   : Started SareetaApplicationTests in 2.83 seconds (JVM running for 4.068)
+2023-10-16 07:46:49.720 ERROR 17829 --- [main] c.e.demo.controllers.OrderController     : unable to create order for test
+2023-10-16 07:46:49.721  INFO 17829 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 07:46:49.722 ERROR 17829 --- [main] c.e.demo.controllers.OrderController     : unable to create order for test
+2023-10-16 07:46:49.724  INFO 17829 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 07:46:49.725  INFO 17829 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 07:46:49.740  INFO 17829 --- [main] c.e.demo.controllers.UserController      : user test created
+2023-10-16 07:46:49.741  INFO 17829 --- [main] c.e.demo.controllers.UserController      : user test created
+2023-10-16 07:46:49.745  INFO 17829 --- [main] c.e.demo.controllers.UserController      : user test created
+2023-10-16 07:46:49.752  INFO 17829 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-16 07:46:49.754  INFO 17829 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16 07:46:49.755  INFO 17829 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-16 07:46:49.757  INFO 17829 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-16 07:47:50.139  INFO 17852 --- [main] c.example.demo.SareetaApplicationTests   : Starting SareetaApplicationTests on Tareks-MacBook-Air.local with PID 17852 (started by tarek in /Users/tarek/Downloads/nd035-c4-Security-and-DevOps/starter_code)
+2023-10-16 07:47:50.140  INFO 17852 --- [main] c.example.demo.SareetaApplicationTests   : No active profile set, falling back to default profiles: default
+2023-10-16 07:47:50.490  INFO 17852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16 07:47:50.539  INFO 17852 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43ms. Found 4 JPA repository interfaces.
+2023-10-16 07:47:51.069  INFO 17852 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16 07:47:51.113  INFO 17852 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-10-16 07:47:51.194  INFO 17852 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-10-16 07:47:51.254  INFO 17852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-16 07:47:51.360  INFO 17852 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-16 07:47:51.372  INFO 17852 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-16 07:47:51.840  INFO 17852 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16 07:47:51.853  INFO 17852 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16 07:47:52.136  WARN 17852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-16 07:47:52.547  INFO 17852 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5aa334c, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e7f29d5, org.springframework.security.web.header.HeaderWriterFilter@94aeba1, org.springframework.web.filter.CorsFilter@17f8cad6, org.springframework.security.web.authentication.logout.LogoutFilter@580154b3, com.example.demo.security.JWTAuthenticationFilter@698e1bf5, com.example.demo.security.JWTAuthenticationVerficationFilter@7a85dc58, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7bebad0d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48751d8a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ee1b017, org.springframework.security.web.session.SessionManagementFilter@116b0b32, org.springframework.security.web.access.ExceptionTranslationFilter@75dbe490, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ae08750]
+2023-10-16 07:47:52.792  INFO 17852 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-16 07:47:53.044  INFO 17852 --- [main] c.example.demo.SareetaApplicationTests   : Started SareetaApplicationTests in 3.099 seconds (JVM running for 4.232)
+2023-10-16 07:47:53.455 ERROR 17852 --- [main] c.e.demo.controllers.OrderController     : unable to create order for test
+2023-10-16 07:47:53.458  INFO 17852 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 07:47:53.460 ERROR 17852 --- [main] c.e.demo.controllers.OrderController     : unable to create order for test
+2023-10-16 07:47:53.462  INFO 17852 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 07:47:53.464  INFO 17852 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 07:47:53.494  INFO 17852 --- [main] c.e.demo.controllers.UserController      : user test created
+2023-10-16 07:47:53.496  INFO 17852 --- [main] c.e.demo.controllers.UserController      : user test created
+2023-10-16 07:47:53.502  INFO 17852 --- [main] c.e.demo.controllers.UserController      : user test created
+2023-10-16 07:47:53.515  INFO 17852 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-16 07:47:53.517  INFO 17852 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16 07:47:53.519  INFO 17852 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-16 07:47:53.522  INFO 17852 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-16 07:49:11.097  INFO 17873 --- [main] c.example.demo.SareetaApplicationTests   : Starting SareetaApplicationTests on Tareks-MacBook-Air.local with PID 17873 (started by tarek in /Users/tarek/Downloads/nd035-c4-Security-and-DevOps/starter_code)
+2023-10-16 07:49:11.099  INFO 17873 --- [main] c.example.demo.SareetaApplicationTests   : No active profile set, falling back to default profiles: default
+2023-10-16 07:49:11.539  INFO 17873 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16 07:49:11.611  INFO 17873 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 4 JPA repository interfaces.
+2023-10-16 07:49:12.378  INFO 17873 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16 07:49:12.421  INFO 17873 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-10-16 07:49:12.540  INFO 17873 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-10-16 07:49:12.609  INFO 17873 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-16 07:49:12.748  INFO 17873 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-16 07:49:12.761  INFO 17873 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-16 07:49:13.351  INFO 17873 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16 07:49:13.368  INFO 17873 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16 07:49:13.680  WARN 17873 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-16 07:49:13.976  INFO 17873 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36d5c2ce, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a96f3cb, org.springframework.security.web.header.HeaderWriterFilter@2078bf0a, org.springframework.web.filter.CorsFilter@6369d01c, org.springframework.security.web.authentication.logout.LogoutFilter@36349e29, com.example.demo.security.JWTAuthenticationFilter@54e680fe, com.example.demo.security.JWTAuthenticationVerficationFilter@ea0c99c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64af5454, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@27048db3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@167bb934, org.springframework.security.web.session.SessionManagementFilter@103e9972, org.springframework.security.web.access.ExceptionTranslationFilter@423762ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@462b239f]
+2023-10-16 07:49:14.079  INFO 17873 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-16 07:49:14.179  INFO 17873 --- [main] c.example.demo.SareetaApplicationTests   : Started SareetaApplicationTests in 3.405 seconds (JVM running for 5.051)
+2023-10-16 07:49:14.389 ERROR 17873 --- [main] c.e.demo.controllers.OrderController     : unable to create order for test
+2023-10-16 07:49:14.390  INFO 17873 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 07:49:14.392 ERROR 17873 --- [main] c.e.demo.controllers.OrderController     : unable to create order for test
+2023-10-16 07:49:14.392  INFO 17873 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 07:49:14.393  INFO 17873 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 07:49:14.404  INFO 17873 --- [main] c.e.demo.controllers.UserController      : user test created
+2023-10-16 07:49:14.405  INFO 17873 --- [main] c.e.demo.controllers.UserController      : user test created
+2023-10-16 07:49:14.409  INFO 17873 --- [main] c.e.demo.controllers.UserController      : user test created
+2023-10-16 07:49:14.416  INFO 17873 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-16 07:49:14.417  INFO 17873 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16 07:49:14.419  INFO 17873 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-16 07:49:14.420  INFO 17873 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-16 08:27:58.963  INFO 18366 --- [main] c.example.demo.SareetaApplicationTests   : Starting SareetaApplicationTests on Tareks-MacBook-Air.local with PID 18366 (started by tarek in /Users/tarek/Downloads/nd035-c4-Security-and-DevOps/starter_code)
+2023-10-16 08:27:58.966  INFO 18366 --- [main] c.example.demo.SareetaApplicationTests   : No active profile set, falling back to default profiles: default
+2023-10-16 08:27:59.638  INFO 18366 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-16 08:27:59.704  INFO 18366 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53ms. Found 4 JPA repository interfaces.
+2023-10-16 08:28:00.929  INFO 18366 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-16 08:28:01.045  INFO 18366 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2023-10-16 08:28:01.294  INFO 18366 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2023-10-16 08:28:01.523  INFO 18366 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-16 08:28:02.001  INFO 18366 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-16 08:28:02.039  INFO 18366 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-10-16 08:28:03.115  INFO 18366 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-16 08:28:03.124  INFO 18366 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16 08:28:03.578  WARN 18366 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-16 08:28:04.053  INFO 18366 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7da1ef46, org.springframework.security.web.context.SecurityContextPersistenceFilter@25d9298e, org.springframework.security.web.header.HeaderWriterFilter@4e3a6c83, org.springframework.web.filter.CorsFilter@740fccd2, org.springframework.security.web.authentication.logout.LogoutFilter@2552181d, com.example.demo.security.JWTAuthenticationFilter@1ae23815, com.example.demo.security.JWTAuthenticationVerficationFilter@63ccb1b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3702d0ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5e777b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1165a952, org.springframework.security.web.session.SessionManagementFilter@54c37dab, org.springframework.security.web.access.ExceptionTranslationFilter@563392e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@782e0844]
+2023-10-16 08:28:04.226  INFO 18366 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-16 08:28:04.532  INFO 18366 --- [main] c.example.demo.SareetaApplicationTests   : Started SareetaApplicationTests in 5.986 seconds (JVM running for 9.083)
+2023-10-16 08:28:05.012 ERROR 18366 --- [main] c.e.demo.controllers.OrderController     : unable to create order for test
+2023-10-16 08:28:05.014  INFO 18366 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 08:28:05.019 ERROR 18366 --- [main] c.e.demo.controllers.OrderController     : unable to create order for test
+2023-10-16 08:28:05.022  INFO 18366 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 08:28:05.025  INFO 18366 --- [main] c.e.demo.controllers.OrderController     : order created for user test 
+2023-10-16 08:28:05.050  INFO 18366 --- [main] c.e.demo.controllers.UserController      : user created test
+2023-10-16 08:28:05.051  INFO 18366 --- [main] c.e.demo.controllers.UserController      : user created test
+2023-10-16 08:28:05.056  INFO 18366 --- [main] c.e.demo.controllers.UserController      : user created test
+2023-10-16 08:28:05.063  INFO 18366 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-16 08:28:05.066  INFO 18366 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-16 08:28:05.068  INFO 18366 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-16 08:28:05.070  INFO 18366 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
